@@ -7,11 +7,14 @@ while($i < 6){
 }
 
 //while com break
-echo "<br>"
+
+echo "<br>";
+
 $i = 1;
+
 while($i < 6){
     if ( $i == 3) break;
-    echo $i; "<br>";
+    echo $i. "<br>";
     $i++;
 }
 ?>
